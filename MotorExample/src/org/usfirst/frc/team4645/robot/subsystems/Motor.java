@@ -40,7 +40,7 @@ public class Motor extends Subsystem
     {
     	/*1 is the highest motor speed. Never set it to 1 or -1 while your code is in the 
     	testing stage*/
-    	basicMotor.set(1);
+    	basicMotor.set(-1);
     }
     
     public void moveBackward()
