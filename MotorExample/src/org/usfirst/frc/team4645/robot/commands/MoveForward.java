@@ -33,7 +33,7 @@ public class MoveForward extends Command {
 	}
 
 	// Make this return true when this Command no longer needs to run execute()
-	/*this command will stop executing when isFinished returns true. Since it is always returning 
+	/*this command will stop executing when visFinished returns true. Since it is always returning 
 	 * false here, it will always execute
 	*/
 	@Override
